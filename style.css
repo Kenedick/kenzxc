@@ -1,0 +1,70 @@
+/* General Page */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #fff4c2, lightblue);
+    color: #333;
+    text-align: center;
+}
+
+/* Main Container */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: rgb(252, 252, 252);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    background-color: white;
+}
+
+/* Main Title */
+h1 {
+    color: lightseagreen;
+    font-size: 40px;
+}
+
+/* Subtitles */
+h2 {
+    color: #20b2aa;
+}
+h3 {
+    color: lightseagreen;
+}
+
+/* Teacher Picture */
+.teacher-photo {
+    width: 500px;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 6px solid #14130d;
+    margin: 20px;
+    overflow: hidden;
+}
+
+/* Message */
+.message {
+    font-size: 20px;
+    line-height: 1.7;
+    margin: 25px 0;
+    color: black;
+}
+
+/* Heart */
+.heart {
+    color: #e74c3c;
+    font-size: 30px;
+}
+
+/* Song */
+audio {
+    width: 80%;
+    margin-top: 15px;
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    color: #777;
+}
